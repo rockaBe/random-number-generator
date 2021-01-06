@@ -2,10 +2,22 @@
   "name": "rockabe-randon-number",
   "version": "0.0.1",
   "description": "A sample module to generate a number between 1 and 10",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "build": "babel src -d dist"
   },
   "author": "rockaBe",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-jest": "^26.6.3",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.12.5",
+    "babel-cli": "^6.26.0"
+  }
 }
