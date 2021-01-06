@@ -1,11 +1,15 @@
 {
   "name": "rockabe-randon-number",
   "version": "0.0.2",
-  "description": "A sample module to generate a number between 1 and 10",
+  "description": "A sample module to generate a number between to passed values or 0 and 1 if no arguments are passed",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
     "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rockaBe/random-number-generator.git"
   },
   "author": "rockaBe",
   "license": "ISC",
