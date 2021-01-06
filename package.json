@@ -1,6 +1,6 @@
 {
   "name": "rockabe-randon-number",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A sample module to generate a number between 1 and 10",
   "main": "dist/index.js",
   "scripts": {
